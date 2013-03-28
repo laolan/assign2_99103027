@@ -1,0 +1,58 @@
+<link rel=”stylesheet” type=”text/css” media=”all” href=”path/to/960/reset.css” />
+ <link rel=”stylesheet” type=”text/css” media=”all” href=”path/to/960/960.css” />
+ <link rel=”stylesheet” type=”text/css” media=”all” href=”path/to/960/text.css” />
+
+body{
+    margin:0;
+    padding:0;
+    background-color:#212663;
+      
+}
+
+
+<style type="text/css">
+  #header{
+       background-color:red;
+   }
+  #globallbar{
+    width:860px;
+    font-size:20px;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    line-height:20px;
+    background-color:gray;
+  }
+
+
+p img {
+	float:right;
+	margin-right:50px;
+	border:solid 1px #000;
+	padding:5px;
+	width:200px;
+	box-sizing:border-box;
+}
+ #content{
+     width:860px;
+      background-color:write;
+      font-size: 17px;
+      font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+      line-height: 2em;
+      color: #666;
+      padding: 30px;
+ }
+
+
+
+  #content2{
+      width:860px;
+      background-color:rgb(214, 237, 241);
+      font-size: 17px;
+      font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+      line-height: 2em;
+      color: #666;
+      padding: 30px;
+  }
+
+
+
+</strle>
