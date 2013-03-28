@@ -24,10 +24,9 @@ img{
 p img {
 	float:right;
 	margin-right:10px;
-	border:solid 1px #000;
+	border:solid 2px gray;
 	padding:5px;
 	width:300px;
-	box-sizing:border-box;
 }
  #content{
      width:860px;
