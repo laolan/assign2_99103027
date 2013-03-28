@@ -1,6 +1,6 @@
-<link rel=¡¨stylesheet¡¨ type=¡¨text/css¡¨ media=¡¨all¡¨ href=¡¨path/to/960/reset.css¡¨ />
- <link rel=¡¨stylesheet¡¨ type=¡¨text/css¡¨ media=¡¨all¡¨ href=¡¨path/to/960/960.css¡¨ />
- <link rel=¡¨stylesheet¡¨ type=¡¨text/css¡¨ media=¡¨all¡¨ href=¡¨path/to/960/text.css¡¨ />
+ï»¿<link rel="stylesheet" type="text/css" media="all" href="path/to/960/reset.css" />
+ <link rel="stylesheet" type="text/css" media="all" href="path/to/960/960.css" />
+ <link rel="stylesheet" type="text/css" media="all" href="path/to/960/text.css" />
 
 body{
     margin:0;
@@ -17,7 +17,7 @@ body{
   #globallbar{
     width:860px;
     font-size:20px;
-    font-family: "·L³n¥¿¶ÂÅé", Arial, Helvetica, sans-serif;
+    font-family: "å¾®è»Ÿæ­£é»‘é«”", Arial, Helvetica, sans-serif;
     line-height:20px;
     background-color:gray;
   }
@@ -35,7 +35,7 @@ p img {
      width:860px;
       background-color:write;
       font-size: 17px;
-      font-family: "·L³n¥¿¶ÂÅé", Arial, Helvetica, sans-serif;
+      font-family: "å¾®è»Ÿæ­£é»‘é«”", Arial, Helvetica, sans-serif;
       line-height: 2em;
       color: #666;
       padding: 30px;
@@ -47,7 +47,7 @@ p img {
       width:860px;
       background-color:rgb(214, 237, 241);
       font-size: 17px;
-      font-family: "·L³n¥¿¶ÂÅé", Arial, Helvetica, sans-serif;
+      font-family: "å¾®è»Ÿæ­£é»‘é«”", Arial, Helvetica, sans-serif;
       line-height: 2em;
       color: #666;
       padding: 30px;
