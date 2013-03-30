@@ -2,30 +2,68 @@
 <head>
 
 
-<style type="text/css">
-  input[type=text]{
-    border: 1px solid blue;
-  }
-  [name^=txt]{
-    /* 'name' starting with 'txt' */
-    background: pink;
-  }
+  <!-- 表單 -->
+<form action="#" method="post" id="myform">
+    <!-- 區塊 -->
+   <div>
+    	 <!-- 標記文字 for (quick select)-->
+      <label for="name"><h4>hidden_id:</h4></label>
+         
+         <!-- 輸入框 type, name, id, value, tabindex, password-->
+         <input type="hidden" name="entry.0.single" value="your_id">
+ </div>
+      
+    <div>
+         <h4>Gender</h4>
+         <label for="male">Boy</label>     
+         <input type="radio" name="entry.1.group" id="male" tabindex="2" value="male" >
 
-</style>
+		 <label for="female">Girl</label>
+         <input type="radio" name="entry.1.group" id="female" tabindex="3" value="female" >
+    </div>
+    
+    <div id="foods">
+   	  <h4>Favorite Foods</h4>
+        <!-- radio box , checked -->
+		<input name="entry.2.group" type="checkbox" id="Apple" value="Apple" >
+        <label for="Apple">Apple</label><br/>
+        <input name="entry.2.group" type="checkbox" id="banana" value="banana" >
+        <label for="banana">Banana</label><br/>
+        <input name="entry.2.group" type="checkbox" id="Lemon" value="Lemon" >
+        <label for="Lemon">Lemon</label><br/>
+        <input name="entry.2.group" type="checkbox" id="Watermelon" value="Watermelon" >
+        <label for="Watermelon">Watermelon</label>
+    </div>
+    
+	<div>
+	  <label for="select-choice"><h4>Relationship:</h4></label>
+        <!-- 選單 , list, selected -->
+		<select name="entry.3.single" id="select-choice">
+			<option value="Choice 1" selected="selected">Single</option>
+			<option value="Choice 2">Dating</option>
+			<option value="Choice 3">Merried</option>
+			<option value="Choice 3">hard to explain</option>
+		</select>
+	</div>
+	
+	<div>
+		<label for="textarea"><h4>Comment:</h4></label><br/>
+        <!-- 文字框-->
+		<textarea cols="40" rows="8" name="entry.5.single" id="textarea"></textarea>
+	</div>
+	
+	
 
-</head>
+	<div>
+	   <input type="submit" value="送出" name="submit" >
+    </div>
+</form>
 
-<body>
-
-<div>
-<!-- -->
-Login: <input type="text" name="txtName"><br>
-Password: <input type="password" name="txtPassword"><br>
-<input type="checkbox" name="optCheckbox">Remember Me
+<form action="https://docs.google.com/spreadsheet/formResponse?formkey=dDhFdFBITDc2X3FaUGNPaGRWb29mNlE6MQ&ifq" method="POST">
 
 
 
-</div>
+
 
 
 
