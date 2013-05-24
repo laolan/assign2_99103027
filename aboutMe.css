@@ -13,7 +13,7 @@ img{
        /*background-color:red;*/
    }
   #globallbar{
-    width:860px;
+    
     font-size:25px;
     font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
     line-height:30px;
@@ -29,7 +29,7 @@ p img {
 	width:300px;
 }
  #content{
-     width:860px;
+    
       background-color:write;
       font-size: 17px;
       font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
@@ -41,7 +41,7 @@ p img {
 
 
   #content2{
-      width:860px;
+     
       background-color:rgb(214, 237, 241);
       font-size: 17px;
       font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
